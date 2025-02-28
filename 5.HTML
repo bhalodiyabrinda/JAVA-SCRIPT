@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .a4{
+            font-size: 50px;
+            margin-left: 500px;
+        }
+        iframe{
+            margin-left: 450px;
+        }
+        .d{
+            margin-top: 20px;
+            margin-left: 700px;
+        }
+        p{
+            margin-left: 1300px;
+        }
+        img{
+            width: 150px;
+            height: 150px;
+            margin-left: 700px;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+            <p >Backgroud:</p>
+            <button style="margin-left: 1300px;" id="a" onclick="change1();" type="button">P</button>
+            <button class="b" id="b" onclick="change2();" type="button">G</button>
+            <button class="c" id="c" onclick="change3();" type="button">B</button>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Administrative_map_of_Gujarat.png" >
+            <h1 class="a4"><u>Awesome Online Videos</u></h1>
+            </div>
+            <div>
+        <iframe width="630" height="384" src="https://www.youtube.com/embed/efV4nifmvRk" title="Somnath Temple - Pride of Gujarat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>           
+            <br>
+            <button class="d" id="d" onclick="change4();" type="button">Play</button>
+            <button class="e" id="e" onclick="change5();" type="button">Pause</button>
+            </div>
+            </body>
+            <script>
+                function change1()
+                {
+                    document.body.style.backgroundColor='pink';
+                    document.getElementById('a').style.backgroundColor='pink'
+                }
+                function change2()
+                {
+                    document.body.style.backgroundColor='lightgreen';
+                    document.getElementById('b').style.backgroundColor='lightgreen'
+                }
+                function change3()
+                {
+                    document.body.style.backgroundColor='lightblue';
+                    document.getElementById('c').style.backgroundColor='lightblue'
+                }
+            </script>
+    
+
+</html>
